@@ -24,6 +24,7 @@
   "homepage": "https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-preset-loader#readme",
   "devDependencies": {
     "conventional-changelog-angular": "workspace:^",
+    "conventional-changelog-ones": "workspace:^",
     "conventional-changelog-conventionalcommits": "workspace:^"
   }
 }

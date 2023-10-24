@@ -12,6 +12,10 @@ patchedDependencies:
 importers:
 
   .:
+    dependencies:
+      conventional-changelog-cli:
+        specifier: ^4.1.0
+        version: link:packages/conventional-changelog-cli
     devDependencies:
       '@vitest/coverage-v8':
         specifier: ^0.34.0
@@ -79,6 +83,9 @@ importers:
       conventional-changelog-jshint:
         specifier: workspace:^
         version: link:../conventional-changelog-jshint
+      conventional-changelog-ones:
+        specifier: workspace:^
+        version: link:../conventional-changelog-ones
       conventional-changelog-preset-loader:
         specifier: workspace:^
         version: link:../conventional-changelog-preset-loader
@@ -165,6 +172,15 @@ importers:
         specifier: ^2.0.0
         version: 2.0.0
 
+  packages/conventional-changelog-ones:
+    dependencies:
+      compare-func:
+        specifier: ^2.0.0
+        version: 2.0.0
+      conventional-changelog-ones:
+        specifier: ^1.0.0
+        version: 'link:'
+
   packages/conventional-changelog-preset-loader:
     devDependencies:
       conventional-changelog-angular:
@@ -173,6 +189,9 @@ importers:
       conventional-changelog-conventionalcommits:
         specifier: workspace:^
         version: link:../conventional-changelog-conventionalcommits
+      conventional-changelog-ones:
+        specifier: workspace:^
+        version: link:../conventional-changelog-ones
 
   packages/conventional-changelog-writer:
     dependencies:

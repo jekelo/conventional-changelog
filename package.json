@@ -58,5 +58,8 @@
     "patchedDependencies": {
       "v8-to-istanbul@9.1.0": "patches/v8-to-istanbul@9.1.0.patch"
     }
+  },
+  "dependencies": {
+    "conventional-changelog-cli": "^4.1.0"
   }
 }

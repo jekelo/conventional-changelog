@@ -45,6 +45,8 @@
     "conventional-changelog-express": "workspace:^",
     "conventional-changelog-jquery": "workspace:^",
     "conventional-changelog-jshint": "workspace:^",
+    "conventional-changelog-ones": "workspace:^",
     "conventional-changelog-preset-loader": "workspace:^"
+
   }
 }
